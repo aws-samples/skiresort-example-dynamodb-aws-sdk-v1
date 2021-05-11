@@ -1,7 +1,7 @@
 ## Ski Resort example using Amazon DynamoDB based on Single Table Design using AWS SDK for Java v1
 
 
-This is the _**sample**_ code that comes together with [the blog post on Amazon DynamoDB Single Table Design using DynamoDBMapper & Spring Boot](https://aws.amazon.com/blogs/).
+This is the _**sample**_ code that comes together with [the blog post on Amazon DynamoDB Single Table Design using DynamoDBMapper & Spring Boot](https://aws.amazon.com/blogs/database/amazon-dynamodb-single-table-design-using-dynamodbmapper-and-spring-boot/).
 
 The purpose of this sample code is to demonstrate how you can apply the Single Table Design concept in Java / Spring Boot based applications.
 

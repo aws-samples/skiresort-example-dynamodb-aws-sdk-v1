@@ -46,7 +46,7 @@ public class DynamoDBIntegrationTestConfiguration {
                     gsi.setProvisionedThroughput(new ProvisionedThroughput(5L, 5L));
                     // "Date" is a required attribute for the access pattern using this Global Secondary Index
                     // ProjectionType.KEYS_ONLY would miss that attribute
-                    // ProjectionType.ALL would work but less efficient then ProjectionType.INCLUDE
+                    // ProjectionType.ALL would work but less efficient than ProjectionType.INCLUDE
                     gsi.getProjection().setNonKeyAttributes(List.of("Date"));
                     gsi.getProjection().setProjectionType(ProjectionType.INCLUDE);
                 });
